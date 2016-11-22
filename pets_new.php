@@ -5,10 +5,9 @@ require 'layout/header.php';
 ?>
 
 <div class="container">
+	<h1>Add your Pet! Squirrel!</h1>
 	<div class="row">
 		<div class="col-xs-6">
-			<h1>Add your Pet! Squirrel!</h1>
-
 			<form action="pets_new.php" method="POST">
 				<div class="form-group">
 					<label for="pet-name" class="control-label">Pet Name</label> <input
